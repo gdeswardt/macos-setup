@@ -14,8 +14,11 @@ Y888   ' 888  888P Y888    , 888  888         888D   888D 888  888
 
 
 mkdir -p ~/.ssh
+touch ~/.ssh/rsa_id
+chmod 600 ~/.ssh/rsa_id
+touch ~/.ssh/rsa_id.pub
 
-echo "Set up the id_rsa and id_rsa.pub keys into the ~./ssh folder"
+echo "Update the id_rsa and id_rsa.pub file in the ~./ssh folder"
 
 read -e -p "Please press 'RETURN' once you have done so for the script to continue"
 
