@@ -14,9 +14,9 @@ Y888   ' 888  888P Y888    , 888  888         888D   888D 888  888
 
 
 mkdir -p ~/.ssh
-touch ~/.ssh/rsa_id
-chmod 600 ~/.ssh/rsa_id
-touch ~/.ssh/rsa_id.pub
+touch ~/.ssh/id_rsa
+chmod 600 ~/.ssh/id_rsa
+touch ~/.ssh/id_rsa.pub
 
 echo "Update the id_rsa and id_rsa.pub file in the ~./ssh folder"
 
