@@ -37,7 +37,7 @@ echo "
                                                                                  
 " 
 /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-brew install git svn
+brew install git svn jq
 
 # SDKMAN
 curl -s "https://get.sdkman.io" | bash
